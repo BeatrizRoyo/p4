@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Festivales</title>
+</head>
+<body>
+<h2>Añadir un Nuevo Festival</h2>
+<form action="/api/festivales" method="post">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br>
+
+  <label for="ciudad">Ciudad:</label><br>
+  <input type="text" id="ciudad" name="ciudad" required><br>
+
+  <label for="fecha">Fecha:</label><br>
+  <input type="date" id="fecha" name="fecha" required><br>
+
+  <label for="duracion">Duración:</label><br>
+  <input type="text" id="duracion" name="duracion" required><br>
+
+  <label for="tipoMusica">Tipo de Música:</label><br>
+  <input type="text" id="tipoMusica" name="tipoMusica" required><br>
+
+  <input type="submit" value="Añadir Festival">
+</form>
+</body>
+</html>
