@@ -22,7 +22,6 @@ Para crear un nuevo festival, envía una solicitud POST a /api/festivales con un
 Ejemplo de cuerpo de solicitud:
 
 json
-Copy code
 {
   "nombre": "MadCool",
   "ciudad": "Madrid",
